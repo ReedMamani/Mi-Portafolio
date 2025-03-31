@@ -1,73 +1,51 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Fondo oscuro elegante */
+    color: #ffffff; /* Texto blanco para contraste */
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y profesional */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 20px auto;
     padding: 20px;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Resaltado en dorado */
     border-radius: 10px;
-}
-
-.header {
     text-align: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: white;
-    border-radius: 10px 10px 0 0;
 }
 
-.header img {
-    width: 150px;
+h1, h2, h3 {
+    color: #ffd700; /* Dorado para títulos */
+}
+
+.profile-img {
+    width: 150px; /* Tamaño reducido de la foto */
     height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
+    border-radius: 50%; /* Imagen redonda */
+    border: 3px solid #ffd700; /* Borde dorado */
+    margin-bottom: 20px;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 5px;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #6a11cb;
+p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .section {
-    margin: 20px 0;
+    margin-bottom: 30px;
     padding: 15px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.section h2 {
-    border-bottom: 2px solid #6a11cb;
-    padding-bottom: 5px;
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.section p {
-    line-height: 1.6;
-    font-size: 1.1em;
-}
-
-.footer {
-    text-align: center;
-    padding: 15px;
-    background: #6a11cb;
-    color: white;
-    border-radius: 0 0 10px 10px;
-    margin-top: 20px;
+a:hover {
+    text-decoration: underline;
 }
