@@ -1,51 +1,80 @@
 body {
-    background-color: #121212; /* Fondo oscuro elegante */
-    color: #ffffff; /* Texto blanco para contraste */
-    font-family: 'Poppins', sans-serif; /* Fuente moderna y profesional */
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #1e1e1e;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Resaltado en dorado */
-    border-radius: 10px;
+/* Estilos del encabezado */
+header {
     text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+    border-bottom: 3px solid #d4af37;
 }
 
-h1, h2, h3 {
-    color: #ffd700; /* Dorado para títulos */
+h1 {
+    color: #d4af37;
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Sección de perfil */
+.profile {
+    text-align: center;
+    padding: 30px;
 }
 
 .profile-img {
-    width: 150px; /* Tamaño reducido de la foto */
+    width: 150px;
     height: 150px;
-    border-radius: 50%; /* Imagen redonda */
-    border: 3px solid #ffd700; /* Borde dorado */
-    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid #d4af37;
+    box-shadow: 0px 0px 10px #d4af37;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.6;
+.info {
+    margin-top: 10px;
+    font-size: 1em;
 }
 
-.section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+/* Secciones */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
 }
 
-a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
+h3 {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+    border-top: 3px solid #d4af37;
+    font-size: 0.9em;
 }
